@@ -1,9 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
-# home — returns a response for the homepage.
-# about — returns a response describing the app.
-# contact — returns a response with some way to get in touch (a placeholder is fine)
+
 def home(requests):
     return HttpResponse("<h1>This is our Texter Homepage <h1>")
 
