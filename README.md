@@ -82,3 +82,18 @@ This repo includes automated checks (`.github/workflows/classroom.yml`) that ver
 - no virtual environment was committed
 
 These checks cover the mechanical parts of the assignment. Your README explanations and homework answers are graded separately by your instructor.
+
+## My readme answer " what 'name=' does for a URL and why it's useful"
+'name = ' allows you to assign a name to a URL so that it can always be assessed even without the file path by referencing the name .
+It is useful because without it , a change in the filepath will cause the URL to be inaccessible
+
+## My Homework answers
+1. explain the difference between a project and an app. : 
+ A project is the whole site you will be working on(picture it as a School) while an app is only a feature that does a thing in the project( picture this as classrooms in the school, each class might be handling a different subject or level)
+2. What command creates a new Django app?
+ The command is  
+            python manage.py startapp 'the_app_name'
+3. Why do we register an app inside 'INSTALLED_APPS'?
+ the settings.py contains the configurations of the project that we are working on and allows the app to fuction in the project, without it the default home page may not be overriden as it may not even be assessed
+4.  What does giving a URL a 'name=' actually let you do later?
+it allows you to navigate to the exact url that you want to assess, by matching it to the name that you have assigned it 
